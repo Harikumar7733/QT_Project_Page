@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: cursive;
+}
+#Header{
+    height:80px;
+    background-color: black;
+    display: flex;
+    color:white;
+    font-size: 20px;
+    position: relative;
+}
+#logo{
+    /* background-color: red; */
+    width:20%;
+}
+#links{
+    /* background-color: green; */
+    width:50%;
+}
+#links a,#btn a{
+    margin-right: 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#links a:hover,
+#btn a:hover{
+    color:goldenrod;
+    font-weight: bold;
+    transform: scale(1.3);
+}
+
+#btn{
+    /* background-color: blue; */
+    width:30%;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Header h2:hover{
+    color:goldenrod;
+    transform: scale(1.3);
+}
+#log-btn{
+    padding: 10px 25px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* ___________________________________________-Header Styling End_________________________________________________________________ */
+#container{
+    position: relative;
+}
+#container img{
+    position: absolute;
+}
+#content {
+    position: absolute;
+    color:white;
+    width:700px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+#content h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+    color:goldenrod;
+}
+#show-btn{
+    padding: 10px 40px;
+    margin-top: 20px;
+    border:none;
+    background-color: rgb(224, 164, 44);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+
+
